@@ -1,0 +1,71 @@
+.Deleteform {
+  text-align: center;
+  background-color: rgba(219, 219, 219, 0.83);
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 16px;
+  left: 50%;
+  margin-top: 10%;
+  top: 200%;
+  transform: translate(-50%);
+}
+
+.Deleteform h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Deleteform select {
+  margin-bottom: 10%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 12px;
+}
+
+.Deleteform select option {
+  background-color: white;
+  color: black;
+}
+
+.Deleteform button {
+  position: relative;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.Deleteform button:hover {
+  background-color: darkgreen;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .Deleteform {
+    padding: 10%;
+    margin-top: 20%;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .Deleteform select {
+    font-size: 10px;
+  }
+
+  .Deleteform button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}

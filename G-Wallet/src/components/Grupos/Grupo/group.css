@@ -1,0 +1,64 @@
+.contenido-grupo {
+  width: 100%;
+  min-height: 100vh;
+  padding: 35px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contenido-grupo .titulo-grupo {
+  font-size: clamp(1.375rem, 1.328rem + 0.2688vw, 1.5rem);
+  text-align: center;
+}
+
+.contenido-grupo .contenido-participantes {
+  width: 100%;
+  height: 100%;
+}
+
+.contenido-grupo .contenido-gastos {
+  width: 100%;
+  height: 100%;
+}
+
+.contenido-grupo .contenido-transacciones {
+  width: 100%;
+  height: 100%;
+}
+
+.contenido-grupo .ajustes-grupo {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.contenido-grupo .ajustes-grupo .btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 6px 20px;
+
+  border: 2px solid #2d8e31;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .contenido-grupo .ajustes-grupo {
+    flex-direction: row;
+  }
+}

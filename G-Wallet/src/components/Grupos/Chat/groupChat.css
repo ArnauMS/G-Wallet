@@ -1,0 +1,101 @@
+.groupPageChat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+  }
+  
+  .messagesContainerChat {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .messageChat {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .myMessageChat {
+    align-self: flex-end;
+    background-color: rgb(68, 195, 68);
+    color: white;
+  }
+  
+  .otherMessageChat {
+    align-self: flex-start;
+    background-color: #757373;
+    color: white;
+    border: 1px solid #757373;
+  }
+  .globalMessageChat{
+    align-self: center;
+    width: 70%;
+    background-color: rgb(154, 31, 6);
+    color: white;
+
+  }
+
+  .globalMessageChat2{
+    align-self: center;
+    width: 70%;
+    background-color: rgb(20, 86, 147);
+    color: white;
+
+  }
+
+  .otherMessageChat .userNameMessageChat{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .myMessageChat .userNameMessageChat{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  
+  .inputContainerChat {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  
+  .inputChat {
+    flex: 8;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+
+  .inputContainerChat button {
+    flex: 1;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 120%;
+  }
+  
+  .enviarChat {
+    background-color: rgb(68, 195, 68);
+  }
+
+  .enviarChat:hover {
+    background-color: rgb(54, 169, 54);
+  }
+
+  .solicitar{
+    background-color: rgb(169, 54, 54);
+  }
+  
+  .solicitar:hover {
+    background-color: rgb(169, 54, 54);
+  }

@@ -1,0 +1,151 @@
+.header {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.header .container {
+  width: 100%;
+  height: auto;
+
+  border: 4px solid #f4f4f4;
+  border-radius: 20px;
+  position: relative;
+}
+
+.header .container .up {
+  width: 100%;
+  height: 100%;
+  padding: 3em 1.25em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  border: 2px solid #f4f4f4;
+  border-radius: 15px 15px 20px 20px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.header .container .up .title {
+  font-size: clamp(1.125rem, 1.0309rem + 0.5376vw, 1.375rem);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.header .container .up .money {
+  font-size: clamp(1.3125rem, 0.9157rem + 2.2674vw, 3.75rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.header .container .up .buttons {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625em;
+}
+
+.header .container .up .buttons .btn {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  padding: 0.313em 0;
+
+  border: 2px solid #008000;
+  border-radius: 5px;
+  background-color: #008000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+  font-size: clamp(0.9375rem, 0.8905rem + 0.2688vw, 1.0625rem);
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
+
+.link {
+  color: white
+}
+
+.header .container .up .buttons .btn:nth-child(2) {
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.header .container .down {
+  width: 100%;
+  height: 100%;
+  padding: 1.875em 1.25em;
+  opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.8s ease-in;
+}
+
+.header .container .down .pendings {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.938em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header .container .down .pendings .title {
+  font-size: clamp(0.875rem, 0.7809rem + 0.5376vw, 1.125rem);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.header .container .down .pendings .title span {
+  opacity: 0.6;
+  text-transform: lowercase;
+}
+
+.header .container .down .pendings .money {
+  font-size: clamp(0.875rem, 0.7339rem + 0.8065vw, 1.25rem);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  margin-top: 0.75em;
+}
+
+.header .container .down .pendings .money {
+  color: #dd0000;
+}
+
+@media screen and (min-width: 768px) {
+  .header .container .up .buttons {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .header .container .up .buttons  {
+    padding: 8px 0;
+  }
+}

@@ -1,0 +1,51 @@
+.centerOfDoughnut {
+    color: gray;
+    font-family: Verdana;
+    position: relative;
+    text-align: center;
+}
+
+.limitModifier {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.limitModifier button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modifyCategoryLimitFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.modifyCategoryLimit {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#doughnutInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+#selector-divisa {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  

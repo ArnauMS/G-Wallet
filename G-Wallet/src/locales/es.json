@@ -1,0 +1,232 @@
+{
+  "addExpense": {
+    "titulo": "Añade un gasto",
+    "placeholderCon": "Concepto",
+    "subtitulo": "Participantes",
+    "seleccionarTodo": "Seleccionar Todo",
+    "boton": "Enviar",
+    "error1": "Por favor, ingresa un asunto",
+    "error2": "Por favor, seleccione al menos dos participantes e introduzca una cantidad para cada uno",
+    "error3": "Introduzca un importe total superior a cero"
+  },
+  "createGroup": {
+    "titulo": "Crea un nuevo grupo",
+    "placeholderNombre": "Nombre",
+    "placeholderEmail": "Email participante",
+    "boton": "Crear",
+    "error": "No has añadido ningun participante, invita a gente para crear el grupo!"
+  },
+  "eliminarGastoGrupal": {
+    "titulo": "¿Deseas eliminar este gasto?",
+    "si": "Sí",
+    "no": "No"
+  },
+  "eliminarGroup": {
+    "titulo": "¿Deseas eliminar este grupo?",
+    "si": "Sí",
+    "no": "No"
+  },
+  "gasto": {
+    "transaccionesRealizadas": "Transacciones realizadas",
+    "infoReembolso1": "Esto no se trata de un gasto común, sino de un reembolso de una de las transacciones",
+    "infoReembolso2": " a realizar en el grupo. Cuando un miembro del grupo paga una de las transacciones",
+    "infoReembolso3":" aparece de esta manera en los gastos del grupo.",
+    "Fecha": "Fecha:",
+     "totalTransaccion": "Total Transacción:",
+     "devuelto": "ha devuelto",
+     "a": "a"
+  },
+  "gastosGrupal": {
+    "titulo": "Gastos",
+    "vacio": "De momento el grupo no tiene gastos. ¡Añade uno de inmediato!"
+  },
+  "participantes": {
+    "titulo": "Participantes del grupo"
+  },
+  "transacciones": {
+    "titulo": "Transacciones",
+    "texto": "debe a",
+    "vacio": "De momento el grupo no tiene transacciones. ¡Primero añade algun gasto!"
+  },
+  "group": {
+    "ajustes": "Ajustes",
+    "añadirGasto": "Añadir gasto"
+  },
+  "modificarGrupo": {
+    "titulo": "Modificar grupo",
+    "subtitulo1": "Nombre del grupo:",
+    "subtitulo2": "Selecciona los participantes a eliminar:",
+    "vacio": "El grupo no tiene participantes para eliminar!",
+    "boton": "Guardar cambios"
+  },
+  "groups": {
+    "titulo": "Tus grupos",
+    "adminGrupo": "Administrador",
+    "vacio": "Por el momento, no perteneces a ningun grupo. ¡Crea uno e invita a tus amigos!",
+    "boton": "Crear grupo"
+  },
+  "gastos": {
+    "titulo": "Últimos gastos",
+    "vacio": "Todavía no hay gastos para mostrar",
+    "verMas": "Ver más"
+  },
+  "header": {
+    "titulo": "Límite Salarial",
+    "boton": "Añadir Gasto",
+    "subtitulo": "Gastos",
+    "subtitulo2": "/ mes"
+  },
+  "home": {
+    "titulo": "Obtén control financiero total",
+    "subtitulo": "Registrate ahora de forma gratuita y sencilla",
+    "login": "Iniciar Sesión",
+    "o": "o",
+    "registro": "Crear cuenta"
+  },
+  "invitationLanding": {
+    "titulo": "Te han invitado a un grupo",
+    "subtitulo": "Acepta la invitación y empieza a compartir gastos",
+    "aceptar": "Unirse al grupo",
+    "rechazar": "Rechazar"
+  },
+  "crearGastoIndividual": {
+    "titulo": "Añadir gasto",
+    "categorias": "Buscar Categoria...",
+    "placeholderCon": "Concepto",
+    "placeholderImp": "Importe",
+    "submit": "Hecho",
+    "permitido": "¡Te lo puedes permitir!",
+    "cuidado": "¡Cuidado!",
+    "tePasas": "¡Te has pasado del límite!",
+    "añadidoConExito": "Gasto añadido con éxito!"
+  },
+  "eliminarGastoIndividual": {
+    "titulo": "Eliminar un gasto",
+    "subtitulo1": "Seleccionar categoría:",
+    "categorias": "Seleccionar",
+    "subtitulo2": "Seleccionar nombre del gasto:",
+    "gastos": "Seleccionar",
+    "eliminar": "Eliminar Gasto",
+    "vacio": "Aun no hay gastos",
+    "error1": "Error al obtener las categorías: ",
+    "error2": "Error al recuperar los datos: "
+  },
+  "categories": {
+    "titulo": "Categorias",
+    "limite": "Limite:",
+    "verMas": "Ver más"
+  },
+  "recentExpenses": {
+    "titulo": "Historial de Gastos",
+    "verMas": "Ver más"
+  },
+  "modificarGastoIndividual": {
+    "placeholderNombre": "Nombre",
+    "placeholderCan": "Cantidad",
+    "buscarCategoria": "Buscar Categoria...",
+    "modificar": "Modificar"
+  },
+  "modificarLimiteCategoria": {
+    "titulo": "Selecciona la categoria de la cual quieres modificar un gasto",
+    "placeholderLimite": "Establecer nuevo límite",
+    "gastado": "Has gastado",
+    "de": "de",
+    "categoria": "en la categoría",
+    "confirmar": "Confirmar",
+    "alerta1": "Límite Establecido con Éxito",
+    "alerta2": "Limite actualizado con éxito",
+    "alerta3": "Ha surgido un problema",
+    "alerta4": "Please, introduce a valid limit for category "
+  },
+  "verGastosIndividuales": {
+    "placeholderLim": "Establecer nuevo límite",
+    "titulo": "Llevas gastados",
+    "de": "de",
+    "categoria": "en la categoría"
+  },
+  "individual": {
+    "titulo": "Historial de gastos",
+    "eliminarGasto": "¿Está seguro de que desea eliminar este gasto?",
+    "si": "Sí",
+    "no": "No",
+    "modificarGasto": "Modificación del gasto",
+    "nombre": "Nombre",
+    "cantidad": "Cantidad",
+    "fecha": "Fecha",
+    "aceptar": "Aceptar",
+    "cancelar": "Cancelar",
+    "categoriaVacia": "No hay gastos para esta categoría",
+    "clicCategoria": "Haz clic en una categoría para ver sus gastos",
+    "crearGastoBoton": "Crear gasto",
+    "eliminarGastoBoton": "Eliminar gasto",
+    "modificarLimiteBoton": "Modificar Límite de una categoría",
+    "Divisa":"Divisa",
+    "verGastos": "Ver y editar gastos en un intervalo de tiempo",
+    "desde": "Desde:",
+    "hasta": "Hasta:"
+  },
+  "login": {
+    "titulo": "G-Wallet",
+    "bienvenido": "¡Bienvenido de nuevo!",
+    "google": "Iniciar Sesión con Google",
+    "o": "o bien",
+    "email": "Correo Electrónico",
+    "contra": "Contraseña",
+    "submit": "Enviar",
+    "noRegistrado": "¿No tienes cuenta?",
+    "crearCuenta": "Crear cuenta"
+  },
+  "profile": {
+    "nombre": "Nombre:",
+    "email": "Email:",
+    "idioma": "Idioma:",
+    "ayuda": "Ayuda",
+    "politica": "Politica de privacidad",
+    "condiciones": "Términos y Condiciones",
+    "contactar": "Contactar",
+    "titulo": "Informacion Personal",
+    "cerrar": "Cerrar",
+    "titulo-help": "Ayuda",
+    "contenido-help": "¡Bienvenido a nuestro centro de ayuda! Si tiene alguna pregunta sobre cómo usar nuestro servicio, busque en nuestras preguntas frecuentes o tutoriales. Si no puede encontrar la respuesta que está buscando, no dude en contactarnos. ¡Estamos aquí para ayudar!",
+    "titulo-privacy": "Politica de Privacidad",
+    "contenido-privacy": "Estamos comprometidos a proteger su información personal. Nuestra política de privacidad explica cómo recopilamos, usamos, compartimos y protegemos su información. Por favor, tómese el tiempo para leerla y comprenderla.",
+    "titulo-terms": "Términos y Condiciones",
+    "contenido-terms": "Nuestros Términos y Condiciones establecen las obligaciones legales y reglas que los usuarios deben aceptar para usar nuestros servicios. Por favor, lea estos términos cuidadosamente antes de usar nuestros servicios.",
+    "titulo-contact": "Contacto",
+    "contenido-contact": "Siempre estamos aquí para ayudar. Si tiene alguna pregunta, sugerencia o comentario, no dude en ponerse en contacto con nosotros. Haremos todo lo posible para responder lo más pronto posible."
+  },
+  "sidebar": {
+    "titulo": "G-Wallet",
+    "inicio": "Inicio",
+    "grupos": "Grupos",
+    "personal": "Personal",
+    "perfil": "Perfil",
+    "salir": "Cerrar Sesión"
+  },
+  "signup": {
+    "titulo": "G-Wallet",
+    "crearCuenta": "Crear cuenta",
+    "google": "Registrarse con Google",
+    "o": "o bien",
+    "placeholderNombre": "Nombre",
+    "placeholderEmail": "Correo Electrónico",
+    "placeholderContra": "Contraseña",
+    "submit": "Enviar",
+    "registrado": "¿Ya tienes cuenta?",
+    "login": "Inicia sesión"
+  },
+  "categorias": {
+    "Alimentación": "Alimentación", 
+    "Salud y Belleza": "Salud y Belleza", 
+    "Ocio": "Ocio", 
+    "Hogar": "Hogar", 
+    "Compras y Servicios": "Compras y Servicios", 
+    "Viajes": "Viajes",
+    "Transporte": "Transporte",
+    "Finanzas": "Finanzas",
+    "Educación": "Educación",
+    "Otros": "Otros",
+    "Moda": "Moda",
+    "Supermercado": "Supermercado"
+  }
+}

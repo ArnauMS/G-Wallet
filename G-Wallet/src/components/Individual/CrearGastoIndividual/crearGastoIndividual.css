@@ -1,0 +1,124 @@
+.crearGasto-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 35px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PersonalExpense {
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.PersonalExpense .TopBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 35px 0px;
+}
+
+.PersonalExpense .TopBar .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.PersonalExpense .card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+.PersonalExpense select {
+  padding: 12px 15px;
+  margin-bottom: 22px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+input[type="date"] {
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.PersonalExpense input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.warningMessage {
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.warningMessage p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.inputCategory {
+  background-color: #fff;
+}
+
+.inputCategory:focus {
+  border: none;
+}
+
+.inputCurrency {
+  width: 100px;
+}
+
+.inputDate {
+  width: 100%;
+}
+
+.inputConcept,
+.inputMoney {
+  width: 100%;
+}
+
+.submitButton {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .PersonalExpense {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .PersonalExpense {
+    padding: 5px;
+  }
+}

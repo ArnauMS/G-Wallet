@@ -1,0 +1,361 @@
+.individual {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 40px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .individual .titulo {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .individual .table-individual {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+    position: relative;
+  }
+  
+  .individual .table-individual .gasto {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 15px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+  
+  .individual .table-individual .gasto .left {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .individual .table-individual .gasto .left .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .individual .table-individual .gasto .left .category {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: gray;
+    background-color: #E2E2E2;
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  .individual .table-individual .gasto .left .date {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: gray;
+  }
+  
+  .individual .table-individual .gasto .left .admin {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: gray;
+  }
+  
+  .individual .table-individual .gasto .right {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .individual .table-individual .gasto .right .image {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .individual .table-individual .gasto .right .amount {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .individual .table-individual .gasto .right .trash {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .individual .table-individual .empty {
+    font-size: clamp(0.9375rem, 0.7728rem + 0.9409vw, 1.375rem);
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .individual .table-individual .load-more {
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+  }
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .category {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+  }
+  
+  .category:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .category.selected {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .category.selected:hover {
+    background-color: #3e8e41;
+  }
+  
+  .individual .create {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 20px;
+    margin-top: 20px;
+  
+    outline: none;
+    border: 2px solid #008000;
+    border-radius: 5px;
+    background-color: #008000;
+  
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.8125rem, 0.782rem + 0.1744vw, 1rem);
+    font-weight: 500;
+    color: #fff;
+  
+    cursor: pointer;
+  }
+
+  .individual .eliminar {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 20px;
+    outline: none;
+    border: 2px solid #008000;
+    border-radius: 5px;
+    background-color: #008000;
+  
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.8125rem, 0.782rem + 0.1744vw, 1rem);
+    font-weight: 500;
+    color: #fff;
+  
+    cursor: pointer;
+  }
+
+  .modificarLimiteCategoria { 
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 20px;
+    outline: none;
+    border: 2px solid #008000;
+    border-radius: 5px;
+    background-color: #008000;
+  
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.8125rem, 0.782rem + 0.1744vw, 1rem);
+    font-weight: 500;
+    color: #fff;
+  
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+  
+  .modal-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal .modal-content .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal .modal-content .buttons button {
+    background-color: #F56565;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .modal .modal-content .buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .modal .modal-content .buttons button:active {
+    transform: translateY(2px);
+  }
+
+
+
+  .modalmod {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modalmod-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .modalmod-content p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .inputmod-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .inputmod-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .inputmod-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .modalmod-content button {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5ab071;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .modalmod-content button:first-child {
+    background-color: #dc3545;
+    margin-right: 10px;
+  }
+  
+  .category-divisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .category-divisa label {
+    font-size: 15px;
+  }
+  
+  .category-divisa select {
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .datesIndv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  

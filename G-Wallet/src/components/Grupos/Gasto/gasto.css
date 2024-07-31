@@ -1,0 +1,111 @@
+.gasto-informacion {
+  width: 100%;
+  min-height: 100vh;
+  padding: 35px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gasto-informacion .name {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gasto-informacion .pagos {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 450px;
+  padding: 30px 40px;
+  margin-top: 50px;
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+
+  gap: 10px;
+}
+
+.gasto-informacion .pagos .titulo {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.gasto-informacion .pagos .container {
+  width: 100%;
+  height: auto;
+}
+
+.gasto-informacion .pagos .container .pago {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-bottom: 1px dashed #000;
+  position: relative;
+}
+
+.gasto-informacion .pagos .container .pago .left {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gasto-informacion .pagos .container .pago .left .persona {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.gasto-informacion .pagos .container .pago .left .cantidad {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.verde {
+  background-color: green;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.infoGastoGrupal {
+  display: flex;
+  flex-direction: row;
+  gap: 40px
+}
+
+@media screen and (max-width: 728px) {
+  .infoGastoGrupal {
+    flex-direction: column;
+  }
+}
+
+.fondo {
+  overflow: hidden;
+}
+

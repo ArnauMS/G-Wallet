@@ -1,0 +1,92 @@
+.groupPage {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupPage .content {  padding: 30px;
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid #008000;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.groupPage .content .texto {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.groupPage .content form {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupPage .content form .texto {
+  text-align: center;
+  color: red;
+}
+
+.groupPage .content form .input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.groupPage .content form .input input {
+  width: fit-content;
+  height: fit-content;
+  margin: 15px 0;
+  padding: 10px;
+
+  border: 2px solid #ddd;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  outline: none;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.groupPage .content form .input input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.groupPage .content form .input input[type="submit"] {
+  padding-inline: 30px;
+  border: none;
+  background-color: #008000;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .groupPage .content {
+    max-width: 400px;
+    height: auto;
+  }
+}

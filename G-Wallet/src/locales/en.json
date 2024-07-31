@@ -1,0 +1,234 @@
+{
+  "addExpense": {
+    "titulo": "Add an expense",
+    "placeholderCon": "Concept",
+    "subtitulo": "Participants",
+    "seleccionarTodo": "Select all",
+    "boton": "Submit",
+    "error1": "Please enter a subject",
+    "error2": "Please select at least two participants and enter an amount for each",
+    "error3": "Enter a total amount greater than zero"
+  },
+  "createGroup": {
+    "titulo": "Create a new group",
+    "placeholderNombre": "Name",
+    "placeholderEmail": "Email participant",
+    "boton": "Create",
+    "error": "You have not added any participant, invite people to create the group!"
+  },
+  "eliminarGastoGrupal": {
+    "titulo": "Do you want to eliminate this expense?",
+    "si": "Yes",
+    "no": "No"
+  },
+  "eliminarGroup": {
+    "titulo": "Do you want to eliminate this group?",
+    "si": "Yes",
+    "no": "No"
+  },
+  "gasto": {
+    "transaccionesRealizadas": "Transactions made",
+    "infoReembolso1": "This is not a common expense, but rather a refund of one of the transactions",
+    "infoReembolso2": "to be made in the group. When a group member pays for one of the transactions",
+     "infoReembolso3": "it appears this way in the group’s expenses.",
+     "Fecha": "Date:",
+     "totalTransaccion": "Total of the transaction",
+     "devuelto": "has returned",
+     "a": "to"
+
+
+  },
+  "gastosGrupal": {
+    "titulo": "Expenses",
+    "vacio": "At the moment the group has no expenses. Add one right away!"
+  },
+  "participantes": {
+    "titulo": "Group participants"
+  },
+  "transacciones": {
+    "titulo": "Transactions",
+    "texto": "owes",
+    "vacio": "At the moment the group has no transactions. First add some expense!"
+  },
+  "group": {
+    "ajustes": "Settings",
+    "añadirGasto": "Add expense"
+  },
+  "modificarGrupo": {
+    "titulo": "Modify group",
+    "subtitulo1": "Group name:",
+    "subtitulo2": "Select the participants to remove:",
+    "vacio": "The group has no participants to delete!",
+    "boton": "Save Changes"
+  },
+  "groups": {
+    "titulo": "Your groups",
+    "adminGrupo": "Administrator",
+    "vacio": "At the moment, you do not belong to any group. Create one and invite your friends!",
+    "boton": "Create group"
+  },
+  "gastos": {
+    "titulo": "Last expenses",
+    "vacio": "There are no expenses to show yet",
+    "verMas": "See more"
+  },
+  "header": {
+    "titulo": "Salary Cap",
+    "boton": "Add Expense",
+    "subtitulo": "Expenses",
+    "subtitulo2": "/ month"
+  },
+  "home": {
+    "titulo": "Get full financial control",
+    "subtitulo": "Register now for free and easily",
+    "login": "Log in",
+    "o": "or",
+    "registro": "Create account"
+  },
+  "invitationLanding": {
+    "titulo": "You have been invited to a group",
+    "subtitulo": "Accept the invitation and start sharing expenses",
+    "aceptar": "Join the group",
+    "rechazar": "Decline"
+  },
+  "crearGastoIndividual": {
+    "titulo": "Add expense",
+    "categorias": "Search Category...",
+    "placeholderCon": "Concept",
+    "placeholderImp": "Amount",
+    "submit": "Done",
+    "permitido": "You can afford it!",
+    "cuidado": "Careful!",
+    "tePasas": "You went over the limit!",
+    "añadidoConExito": "Expense added successfully!"
+  },
+  "eliminarGastoIndividual": {
+    "titulo": "Delete an expense",
+    "subtitulo1": "Select category:",
+    "categorias": "Select",
+    "subtitulo2": "Select expense name:",
+    "gastos": "Select",
+    "eliminar": "Delete expense",
+    "vacio": "No expenses yet",
+    "error1": "Error getting categories: ",
+    "error2": "Error retrieving data: "
+  },
+  "categories": {
+    "titulo": "Categories",
+    "limite": "Limit:",
+    "verMas": "See more"
+  },
+  "recentExpenses": {
+    "titulo": "Expenditure History",
+    "verMas": "See more"
+  },
+  "modificarGastoIndividual": {
+    "placeholderNombre": "Name",
+    "placeholderCan": "Amount",
+    "buscarCategoria": "Search Category...",
+    "modificar": "Modify"
+  },
+  "modificarLimiteCategoria": {
+    "titulo": "Select the category for which you want to modify an expense",
+    "placeholderLimite": "Set new limit",
+    "gastado": "You have spent",
+    "de": "of",
+    "categoria": "in the category",
+    "confirmar": "Confirm",
+    "alerta1": "Límite Establecido con Éxito",
+    "alerta2": "Limite actualizado con éxito",
+    "alerta3": "Ha surgido un problema",
+    "alerta4": "Please, introduce a valid limit for category "
+  },
+  "verGastosIndividuales": {
+    "placeholderLim": "Set new limit",
+    "titulo": "You have spent",
+    "de": "of",
+    "categoria": "in the category"
+  },
+  "individual": {
+    "titulo": "Spending history",
+    "eliminarGasto": "Are you sure you want to eliminate this expense?",
+    "si": "Yes",
+    "no": "No",
+    "modificarGasto": "Modification of the expense",
+    "nombre": "Name",
+    "cantidad": "Amount",
+    "fecha": "Date",
+    "aceptar": "Accept",
+    "cancelar": "Cancel",
+    "categoriaVacia": "There are no expenses for this category",
+    "clicCategoria": "Click on a category to see its expenses",
+    "crearGastoBoton": "Create expense",
+    "eliminarGastoBoton": "Delete expense",
+    "modificarLimiteBoton": "Modify limit of a category",
+    "Divisa" : "Currency",
+    "verGastos": "View and edit expenses in a time range",
+    "desde": "From:",
+    "hasta": "Until:"
+  },
+  "login": {
+    "titulo": "G-Wallet",
+    "bienvenido": "Welcome back!",
+    "google": "Sign in with Google",
+    "o": "or",
+    "email": "Email",
+    "contra": "Password",
+    "submit": "Submit",
+    "noRegistrado": "You do not have an account?",
+    "crearCuenta": "Create Account"
+  },
+  "profile": {
+    "nombre": "Name:",
+    "email": "Email:",
+    "idioma": "Language:",
+    "ayuda": "Help",
+    "politica": "Privacy Policy",
+    "condiciones": "Terms & Conditions",
+    "contactar": "Contact",
+    "titulo": "Personal information",
+    "cerrar": "Close",
+    "titulo-help": "Help",
+    "contenido-help": "Welcome to our help center! If you have any questions about how to use our service, please search our FAQs or tutorials. If you can't find the answer you're looking for, please don't hesitate to contact us. We're here to help!",
+    "titulo-privacy": "Privacy Policy",
+    "contenido-privacy": "We are committed to protecting your personal information. Our privacy policy explains how we collect, use, share, and protect your information. Please take the time to read and understand it.",
+    "titulo-terms": "Terms & Conditions",
+    "contenido-terms": "Our Terms and Conditions set the legal obligations and rules that users must agree to in order to use our services. Please read these terms carefully before using our services.",
+    "titulo-contact": "Contact",
+    "contenido-contact": "We're always here to help. If you have any questions, suggestions, or feedback, feel free to reach out to us. We'll do our best to respond as soon as possible."
+  },
+  "sidebar": {
+    "titulo": "G-Wallet",
+    "inicio": "Home",
+    "grupos": "Groups",
+    "personal": "Personal",
+    "perfil": "Profile",
+    "salir": "Log out"
+  },
+  "signup": {
+    "titulo": "G-Wallet",
+    "crearCuenta": "Create Account",
+    "google": "Sign up with Google",
+    "o": "or",
+    "placeholderNombre": "Name",
+    "placeholderEmail": "Email",
+    "placeholderContra": "Password",
+    "submit": "Submit",
+    "registrado": "Already have an account?",
+    "login": "Log in"
+  },
+  "categorias": {
+    "Alimentación": "Feeding", 
+    "Salud y Belleza": "Health & Beauty", 
+    "Ocio": "Leisure", 
+    "Hogar": "Home", 
+    "Compras y Servicios": "Purchases and Services", 
+    "Viajes": "Trips",
+    "Transporte": "Transport",
+    "Finanzas": "Finance",
+    "Educación": "Education",
+    "Otros": "Others",
+    "Moda": "Fashion",
+    "Supermercado": "Supermarket"
+  }
+}

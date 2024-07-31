@@ -1,0 +1,123 @@
+.gastos {
+  width: 100%;
+  height: 100%;
+  padding: 15px 10px;
+
+  background-color: #9b9a9a20;
+  box-shadow: 0 0 20px #d6e0d6c2;
+  border-radius: 7px;
+}
+
+.gastos .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.gastos .table-gastos {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gastos .table-gastos .gasto {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #fdfdfd;
+  border-radius: 7px;
+}
+
+.gastos .table-gastos .gasto img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gastos .table-gastos .gasto .information {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  position: relative;
+  margin-left: 0.938em;
+}
+
+.gastos .table-gastos .gasto h1 {
+  font-size: clamp(0.75rem, 0.5348rem + 1.2295vw, 1.125rem);
+  font-weight: 600;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.gastos .table-gastos .gasto h2 {
+  font-size: clamp(0.5625rem, 0.3832rem + 1.0246vw, 0.875rem);
+  font-weight: 600;
+  color: #746f6f;
+  text-transform: uppercase;
+
+  margin-top: 5px;
+}
+
+.gastos .table-gastos .gasto .information h3 {
+  position: absolute;
+  right: 0px;
+
+  font-size: clamp(0.8125rem, 0.6332rem + 1.0246vw, 1.125rem);
+  font-weight: 600;
+  color: #000;
+}
+
+.gastos .more {
+  width: fit-content;
+  height: fit-content;
+  padding: 6px 20px;
+  margin-top: 20px;
+
+  outline: none;
+  border: 2px solid #008000;
+  border-radius: 5px;
+  background-color: #008000;
+
+  font-family: "Inter", sans-serif;
+  font-size: clamp(0.8125rem, 0.782rem + 0.1744vw, 1rem);
+  font-weight: 500;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.gastos .empty {
+  font-size: clamp(0.9375rem, 0.7728rem + 0.9409vw, 1.375rem);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .gastos .title {
+    text-align: left;
+  }
+
+  .gastos .table-gastos .gasto img {
+    width: 40px;
+    height: 40px;
+  }
+}

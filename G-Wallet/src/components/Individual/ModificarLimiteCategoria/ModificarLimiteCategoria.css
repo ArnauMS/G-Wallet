@@ -1,0 +1,27 @@
+.flex-modifyCategoryLimit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmButton {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 20px;
+    outline: none;
+    border: 2px solid #008000;
+    border-radius: 5px;
+    background-color: #008000;
+  
+    font-family: "Inter", sans-serif;
+    font-size: clamp(0.8125rem, 0.782rem + 0.1744vw, 1rem);
+    font-weight: 500;
+    color: #fff;
+  
+    cursor: pointer;
+}
+
+.flex-options-modifyCategoryLimit {
+    display: flex;
+    flex-direction: row;
+}

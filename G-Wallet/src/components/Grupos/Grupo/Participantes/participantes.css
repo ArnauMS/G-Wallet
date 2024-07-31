@@ -1,0 +1,44 @@
+.participantes {
+  width: 100%;
+  height: 100%;
+  padding: 30px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+
+  gap: 30px;
+}
+
+.participantes h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.participantes-ul {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.participantes-ul li {
+  list-style-type: circle;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 425px) {
+  .participantes {
+    align-items: flex-start;
+  }
+}
